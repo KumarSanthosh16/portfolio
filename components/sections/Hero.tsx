@@ -9,8 +9,15 @@ import {
   Play,
   ArrowRight,
   Download,
+  Info,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip';
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -133,7 +140,7 @@ const Hero = () => {
           <div className='text-center lg:text-left'>
             <h1
               ref={titleRef}
-              className='text-5xl md:text-7xl font-bold mb-6 leading-tight'
+              className='text-[3.2rem] md:text-7xl font-bold mb-6 leading-tight'
             >
               Santhoshkumar
               <br />
@@ -154,6 +161,25 @@ const Hero = () => {
                 <span className='text-sm text-gray-300 font-bold'>
                   தீதும் நன்றும் பிறர் தர வாரா
                 </span>
+                <TooltipProvider>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <button
+                        className='ml-1 text-gray-400 hover:text-white transition-colors duration-200'
+                        title='தீதும் நன்றும் பிறர் தர வாரா'
+                        aria-label='Information about Tamil quote'
+                      >
+                        <Info className='w-4 h-4' />
+                      </button>
+                    </TooltipTrigger>
+                    <TooltipContent className='max-w-xs backdrop-blur-lg shadow-lg bg-white/30 border border-white/20'>
+                      <p className='font-semibold'>
+                        &ldquo;Neither good nor evil will come to you from
+                        others&rdquo;
+                      </p>
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
               </div>
             </div>
 

@@ -201,17 +201,17 @@ const Projects = () => {
                 </div>
 
                 <div className='flex gap-4'>
-                  <Button className='flex-1 bg-[#7127BA] hover:bg-[#5A1F96] transition-all duration-300 hover:scale-105'>
-                    <Play className='w-4 h-4 mr-2' />
-                    Live Demo
-                  </Button>
                   <Button
                     variant='outline'
-                    className='border-[#7127BA] text-[#7127BA] hover:bg-[#7127BA] hover:text-white transition-all duration-300'
+                    className='flex-1 bg-[#7127BA] hover:bg-[#5A1F96] transition-all duration-300 hover:scale-105'
                     onClick={() => window.open(project.githubUrl, '_blank')}
                   >
                     <Github className='w-4 h-4' />
                   </Button>
+                  {/* <Button className='flex-1 bg-[#7127BA] hover:bg-[#5A1F96] transition-all duration-300 hover:scale-105'>
+                    <Play className='w-4 h-4 mr-2' />
+                    Live Demo
+                  </Button> */}
                 </div>
               </CardContent>
             </Card>
