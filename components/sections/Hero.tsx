@@ -10,6 +10,8 @@ import {
   ArrowRight,
   Download,
   Info,
+  Linkedin,
+  Github,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -140,7 +142,7 @@ const Hero = () => {
           <div className='text-center lg:text-left'>
             <h1
               ref={titleRef}
-              className='text-[3.2rem] md:text-7xl font-bold mb-6 leading-tight'
+              className='text-[2.8rem] md:text-7xl font-bold mb-6 leading-tight'
             >
               Santhoshkumar
               <br />
@@ -185,7 +187,7 @@ const Hero = () => {
 
             <div
               ref={ctaRef}
-              className='flex flex-col sm:flex-row gap-4 justify-center items-center mb-16'
+              className='flex flex-col sm:flex-row gap-4 justify-start items-center mb-16'
             >
               <Button
                 size='lg'
@@ -209,6 +211,26 @@ const Hero = () => {
                 <Download className='w-5 h-5 mr-2' />
                 Download Resume
               </Button>
+              <div className='flex gap-2'>
+                <a
+                  href='https://www.linkedin.com/in/santhoshkumar-ragunathan-753067244/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className={`p-3 glass-effect rounded-xl text-gray-300 transition-all duration-300 hover:scale-110 hover:border-[#7127BA]/40 border border-[#7127BA]/20`}
+                  aria-label='LinkedIn'
+                >
+                  <Linkedin className='w-5 h-5' />
+                </a>
+                <a
+                  href='https://github.com/KumarSanthosh16'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className={`p-3 glass-effect rounded-xl text-gray-300 transition-all duration-300 hover:scale-110 hover:border-[#7127BA]/40 border border-[#7127BA]/20`}
+                  aria-label='GitHub'
+                >
+                  <Github className='w-6 h-6' />
+                </a>
+              </div>
             </div>
           </div>
 

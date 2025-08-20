@@ -114,10 +114,10 @@ const Contact = () => {
       <div className='max-w-7xl mx-auto'>
         <div className='text-center mb-16'>
           <h2 className='text-4xl md:text-5xl font-bold mb-4 gradient-text'>
-            Let's Work Together
+            Let&apos;s Work Together
           </h2>
           <p className='text-xl text-gray-300 max-w-2xl mx-auto'>
-            Ready to bring your ideas to life? Let's discuss your next project
+            Ready to bring your ideas to life? Let&apos;s discuss your next project
             and create something amazing together. Happy to collaborate with you
             :-)
           </p>
@@ -131,7 +131,7 @@ const Contact = () => {
                 Get in Touch
               </h3>
               <p className='text-gray-300 mb-8 leading-relaxed'>
-                I'm always open to discussing new opportunities, interesting
+                I&apos;m always open to discussing new opportunities, interesting
                 projects, or just having a chat about technology and design.
                 Feel free to reach out!
               </p>

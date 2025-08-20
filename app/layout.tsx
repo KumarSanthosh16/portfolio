@@ -7,15 +7,19 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Santhoshkumar - Frontend Developer | Open Source Contributor',
   description:
-    'Santhoshkumar is a frontend developer and open source contributor. He is a quick learner and a team player.',
+    'Santhoshkumar is a frontend developer, freelancer and open source contributor. He is a quick learner and a team player.',
   keywords:
     'frontend developer, portfolio, react, nextjs, web development, UI/UX',
   authors: [{ name: 'Santhoshkumar' }],
   openGraph: {
     title: 'Santhoshkumar - Frontend Developer | Open Source Contributor',
     description:
-      'Santhoshkumar is a frontend developer and open source contributor. He is a quick learner and a team player.',
+      'Santhoshkumar is a frontend developer, freelancer and open source contributor. He is a quick learner and a team player.',
     type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
