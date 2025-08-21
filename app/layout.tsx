@@ -21,6 +21,12 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  alternates: {
+    canonical: 'https://consoledotlog.in',
+  },
+  verification: {
+    google: 'McVXgTsT6mNUN9vp1dSJi-SbE3UAxMPd0GlFUulk2yA',
+  },
 };
 
 export default function RootLayout({
