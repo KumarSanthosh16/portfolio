@@ -1,20 +1,26 @@
 {
   "redirects": [
     {
-      "source": "/(.*)/",
-      "destination": "/$1",
-      "permanent": true
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "consoledotlog.in"
+        }
+      ]
     },
     {
-      "source": "/(.*)",
-      "destination": "https://consoledotlog.in/$1",
+      "source": "/:path*",
+      "destination": "https://consoledotlog.in/:path*",
+      "permanent": true,
       "has": [
         {
           "type": "host",
           "value": "www.consoledotlog.in"
         }
-      ],
-      "permanent": true
+      ]
     }
   ]
 }
