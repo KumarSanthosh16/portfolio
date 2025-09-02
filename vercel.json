@@ -1,13 +1,13 @@
 {
   "redirects": [
     {
-      "source": "/:path+/",
-      "destination": "/:path+",
+      "source": "/_next/:path*",
+      "destination": "https://consoledotlog.in/_next/:path*",
       "permanent": true,
       "has": [
         {
           "type": "host",
-          "value": "consoledotlog.in"
+          "value": "www.consoledotlog.in"
         }
       ]
     },
