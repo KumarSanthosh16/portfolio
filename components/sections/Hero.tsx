@@ -99,7 +99,7 @@ const Hero = () => {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Santhoshkumar_R_FED.pdf';
+    link.href = '/Santhoshkumar_FD.pdf';
     link.download = 'Santhoshkumar_Resume.pdf';
     document.body.appendChild(link);
     link.click();

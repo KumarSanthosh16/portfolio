@@ -125,13 +125,11 @@ const WorkExperience = () => {
                   <CardContent className='p-6'>
                     <div className='flex flex-col lg:flex-row lg:items-start lg:justify-between mb-4'>
                       <div className='flex-1'>
-                        <h3 className='text-2xl font-bold text-white mb-2 group-hover:text-[#7127BA] transition-colors duration-300'>
+                        <h3 className='text-2xl font-bold text-white mb-2 transition-colors duration-300'>
                           {exp.title}
                         </h3>
                         <div className='flex items-center gap-4 text-gray-300 mb-3'>
-                          <span className='font-semibold text-[#7127BA]'>
-                            {exp.company}
-                          </span>
+                          <span className='font-semibold '>{exp.company}</span>
                           <div className='flex items-center gap-1'>
                             <MapPin className='w-4 h-4' />
                             <span className='text-sm'>{exp.location}</span>
@@ -171,7 +169,7 @@ const WorkExperience = () => {
                         {exp.technologies.map((tech, i) => (
                           <span
                             key={i}
-                            className='px-3 py-1 bg-[#7127BA]/20 text-[#7127BA] rounded-full text-sm border border-[#7127BA]/30 hover:bg-[#7127BA]/30 transition-colors duration-200'
+                            className='px-3 py-1 bg-[#7127BA]/20 text-white rounded-full text-sm border border-[#7127BA]/30 hover:bg-[#7127BA]/30 transition-colors duration-200'
                           >
                             {tech}
                           </span>

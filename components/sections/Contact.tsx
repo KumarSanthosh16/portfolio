@@ -117,9 +117,9 @@ const Contact = () => {
             Let&apos;s Work Together
           </h2>
           <p className='text-xl text-gray-300 max-w-2xl mx-auto'>
-            Ready to bring your ideas to life? Let&apos;s discuss your next project
-            and create something amazing together. Happy to collaborate with you
-            :-)
+            Ready to bring your ideas to life? Let&apos;s discuss your next
+            project and create something amazing together. Happy to collaborate
+            with you :-)
           </p>
         </div>
 
@@ -131,9 +131,9 @@ const Contact = () => {
                 Get in Touch
               </h3>
               <p className='text-gray-300 mb-8 leading-relaxed'>
-                I&apos;m always open to discussing new opportunities, interesting
-                projects, or just having a chat about technology and design.
-                Feel free to reach out!
+                I&apos;m always open to discussing new opportunities,
+                interesting projects, or just having a chat about technology and
+                design. Feel free to reach out!
               </p>
             </div>
 
@@ -156,7 +156,7 @@ const Contact = () => {
                         <h4 className='font-semibold text-white mb-1'>
                           {info.title}
                         </h4>
-                        <p className='text-gray-300 group-hover:text-[#7127BA] transition-colors duration-300'>
+                        <p className='text-gray-300  transition-colors duration-300'>
                           {info.value}
                         </p>
                       </div>
