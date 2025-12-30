@@ -17,6 +17,18 @@ const Projects = () => {
 
   const projects = [
     {
+      title: 'react-a11y-doctor NPM Package',
+      description:
+        'react-a11y-doctor scans React source (.js/.jsx/.ts/.tsx) and built output HTML and automatically fixes common accessibility problems, instead of just reporting them.',
+      image: './react-a11y.png',
+      technologies: ['NodeJs'],
+      liveUrl: 'https://www.npmjs.com/package/react-a11y-doctor',
+      githubUrl: 'https://github.com/KumarSanthosh16/react-a11y-doctor',
+      category: 'NPM Package',
+      year: '2025',
+      features: ['Fix accessibility problems', 'NPM Package', 'CLI'],
+    },
+    {
       title: 'AI Text Summarizer',
       description:
         'AI Text Summarizer is a web application that allows you to summarize text using AI. It is built with React.js and Python.',
